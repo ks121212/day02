@@ -1,11 +1,11 @@
 DOCUMENT OBJECT:
-The Document interface represents any web page loaded in the browser and server as an entry point into the web pages content, which is the DOM-tree.
+ The document object represent a web page that is loaded in the browser. By accessing the document object, 
+we can access the element in the HTML page. With the help of document objects, we can add dynamic content to our web page.
+The document object can be accessed with a window.document or just document.
 
-The DOM-tree includes elements such as <body> and <table> among many other. It provides functionality globally to the document, like how ro obtain the pages URL and create new elements in the document.
+Syntax:
 
-Document depending pages(ie.HTML,XML)
-EventTarget->Node->Document
-
+document.property_name;
 
 WINDOW:
 The Window interface a window containing a DOM document, 
